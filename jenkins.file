@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+    stages {
+        stage ('clone') {
+            steps {
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[credentialsId: 'sai_git', url: 'https://github.com/Sai92-tech/maven-sample-project.git']])
+            }
+        }
+        stage ('build') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+    }
+}
