@@ -1,0 +1,45 @@
+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 18-03-2023 to 18-06-2023
+
+JAVA_HOME="/usr/lib/jvm/java-11-openjdk-amd64"
+
+sonarqube token:1cb8b9a8be795ef89e262af0da5b6cd2b213db54
+
+
+target/Example-0.0.1-SNAPSHOT.war   1.0.0 target/vprofile-v2.war
+
+Ace key:AKIAQRYWWKPIPWZOWIR2
+sce key :2B2+b0CP9gANaePMPK9Pji+PxLns5emspo4YmUB8  for S3bucket
+
+AWS Accounts Ids:
+
+1.ksk92kumar@gmail.com
+A.Sai92@143
+
+2.sai.144143@gmail.com
+A.Karothisai92@	
+
+3.ksaikarthik1719@gmail.com
+A.Karothisai92@
+
+4.pradeep.marri2@gmail.com
+A.Pradeep@1203
+
+5.saikumar.karothi92@gmail.com
+A.Karothisai92@gmail.com
+
+
+docker commit -m "install nginx" -c 'CMD /usr/sbin/nginx -g "daemon off;"' -c 'EXPOSE 80' fc54674a54f5 samplenginx:v2 : its
+ help to image up & running
+
+
+
+AKIAQ55AULEJ7ARFKN7A
+wYQLjSYODuiYjmnxn94fTebloux84Vkd+JisTcDM
+
+<role rolename="manager-gui"/>
+ <role rolename="manager-script"/>
+ <role rolename="manager-jmx"/>
+ <role rolename="manager-status"/>
+ <user username="admin" password="admin" roles="manager-gui, manager-script, manager-jmx, manager-status"/>
+ <user username="deployer" password="deployer" roles="manager-script"/>
+ <user username="tomcat" password="s3cret" roles="manager-gui"/>
